@@ -3,3 +3,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: deeppink;
 }
+
+#date {
+    color: #cccccc;
+    font-size: 10px;
+}
