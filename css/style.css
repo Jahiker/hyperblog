@@ -1,43 +1,52 @@
 body {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 #container {
-    border: 1px solid #eee;
-    font-size: 16px;
-    text-align: left;
-    padding: 0;
-    width: 70%;
-    margin: 0 auto;
-    overflow: hidden;
+  border: 1px solid #eee;
+  font-size: 16px;
+  text-align: left;
+  padding: 0;
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 #cabecera {
-    background-color: #3333aa;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1em;
-    -webkit-box-shadow: 0px 6px 34px -4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 6px 34px -4px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 6px 34px -4px rgba(0, 0, 0, 0.75);
+  background-color: #a8a8a8;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 1.5em;
+  -webkit-box-shadow: 0px 6px 34px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 34px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 34px -4px rgba(0, 0, 0, 0.75);
+}
+
+#cabecera .logo {
+  width: 20%;
+  transition: 1s;
+}
+#cabecera .logo:hover {
+  width: 23%;
+  transition: 1s;
 }
 
 #post {
-    padding: 1em;
-    letter-spacing: 1px;
+  padding: 1em;
+  letter-spacing: 1px;
 }
 
 #post p {
-    color: gray;
+  color: gray;
 }
 
 #date {
-    color: #cccccc;
-    font-size: 10px;
+  color: #cccccc;
+  font-size: 10px;
 }
