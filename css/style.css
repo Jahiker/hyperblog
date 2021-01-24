@@ -1,43 +1,57 @@
 body {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 #container {
-    border: 1px solid #eee;
-    font-size: 16px;
-    text-align: left;
-    padding: 0;
-    width: 70%;
-    margin: 0 auto;
-    overflow: hidden;
+  border: 1px solid #eee;
+  font-size: 16px;
+  text-align: left;
+  padding: 0;
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 #cabecera {
-    background-color: #3333aa;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1em;
-    -webkit-box-shadow: 0px 6px 34px -4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 6px 34px -4px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 6px 34px -4px rgba(0, 0, 0, 0.75);
+  background-color: #3333aa;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  -webkit-box-shadow: 0px 6px 34px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 34px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 34px -4px rgba(0, 0, 0, 0.75);
 }
 
 #post {
-    padding: 1em;
-    letter-spacing: 1px;
+  padding: 1em;
+  letter-spacing: 1px;
 }
 
 #post p {
-    color: gray;
+  color: gray;
 }
 
 #date {
-    color: #cccccc;
-    font-size: 10px;
+  color: #cccccc;
+  font-size: 10px;
+}
+
+#footer {
+  background: #2b2b2b;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+#footer span {
+  color: rgb(0, 255, 13);
+  font-size: 0.8rem;
+  margin: 0 auto;
 }
